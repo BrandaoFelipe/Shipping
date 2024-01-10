@@ -1,4 +1,4 @@
-﻿using ShippingExercise.Entities;
+using ShippingExercise.Entities;
 using ShippingExercise.Entities.Enums;
 using System.Globalization;
 using System.Net.NetworkInformation;
@@ -20,13 +20,14 @@ internal class Program
         Console.WriteLine();
 
         Console.WriteLine("Enter order data: ");
-        //Here the Enum Status (processing)
+        OrderStatus status = Enum.Parse<OrderStatus>("Processing");
+        Console.WriteLine(status);
         Console.Write("How many items to this order? ");
         int n = int.Parse(Console.ReadLine());
         DateTime dateNow = DateTime.Now;
-        OrderStatus status = Enum.Parse<OrderStatus>("Processing");
+        
         Order order = new Order(dateNow, status);
-        double sum = 0;
+        
 
         for (int i = 1; i <= n; i++)
         {
@@ -42,17 +43,16 @@ internal class Program
             OrderItem orderItem = new OrderItem(prodQuant, prodPrice, prodName);
             orderItem.Prod(prodName, prodPrice);
             order.AddItem(orderItem);
-            sum = orderItem.SubTotal();
+            
 
         }
-        StringBuilder sbilder = new StringBuilder();
+        
         Console.WriteLine("ORDER SUMARY");
         Console.WriteLine("Order moment: " + order.Moment);
         Console.WriteLine("Order status: " + order.Status);
         Console.WriteLine("Client: " + client.Name + "(" + client.BirthDate + ") - " + client.Email);
         Console.WriteLine();
         Console.WriteLine("Order items: ");
-
         Console.WriteLine(order);
         
 
