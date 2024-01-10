@@ -1,0 +1,14 @@
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\bin\Debug\net8.0\ShippingExercise.exe
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\bin\Debug\net8.0\ShippingExercise.deps.json
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\bin\Debug\net8.0\ShippingExercise.runtimeconfig.json
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\bin\Debug\net8.0\ShippingExercise.dll
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\bin\Debug\net8.0\ShippingExercise.pdb
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\obj\Debug\net8.0\ShippingExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\obj\Debug\net8.0\ShippingExercise.AssemblyInfoInputs.cache
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\obj\Debug\net8.0\ShippingExercise.AssemblyInfo.cs
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\obj\Debug\net8.0\ShippingExercise.csproj.CoreCompileInputs.cache
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\obj\Debug\net8.0\ShippingExercise.dll
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\obj\Debug\net8.0\refint\ShippingExercise.dll
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\obj\Debug\net8.0\ShippingExercise.pdb
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\obj\Debug\net8.0\ShippingExercise.genruntimeconfig.cache
+C:\Users\brand\Documents\progs\ShippingExercise\ShippingExercise\obj\Debug\net8.0\ref\ShippingExercise.dll
